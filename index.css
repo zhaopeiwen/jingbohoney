@@ -1,0 +1,151 @@
+/*.body{background:"img\annie-spratt-137316.png" background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;"}*/
+.div_main{width: 100%;height: 4170px;}
+
+.div1{background-color: red;width: 100%;height: 870px;margin-top: -10px;}
+/*
+header
+*/
+.div11{width: 100%;height: 15%;}
+.div11_left{width: 45%;height: 100%;float: left;}
+.div11_left1{width: 40%;height: 100%;float: left;}
+.div11_left2{width: 60%;height: 100%;float: left;}
+.div11_left21{width: 100%;height: 40%;float: top;color: white;font-family: 微软雅黑;}
+
+.div11_left22{width: 100%;height: 60%;float: top;}
+.div11_left221{width: 50%;height: 100%;float: left;}
+.div11_left221 a{font-size: 20px;text-decoration: none;font-family: 微软雅黑;color: white;}
+.div11_left222 a{width: 50%;height: 100%;float: left;font-size: 20px;text-decoration: none;font-family: 微软雅黑;color: white;}
+
+
+.div11_center{width: 10%;height: 100%;float: left;}
+.div11_right{width: 45%;height: 100%;float: left;}
+.div11_right1{width: 60%;height: 100%;float: left;}
+.div11_right11{width: 100%;height: 40%;float: top;}
+
+.div11_right11 a{color: white;}
+.div11_right11 a:hover{color: red;}
+
+
+.div11_right12{width: 100%;height: 60%;float: top;}
+.div11_right121{width: 50%;height: 100%;float: left;}
+.div11_right121 a{color: white;}
+.div11_right121 a:hover{color: red;}
+.div11_right122{width: 50%;height: 100%;float: left;}
+.div11_right122 a{color: white;}
+.div11_right122 a:hover{color: red;}
+.div11_right2{width: 40%;height: 100%;float: left;}
+
+
+.div12{width: 100%;height: 85%;}
+
+
+
+
+.div2{background-color: red;width: 100%;height: 800px;}
+.div21{background-color: white;width: 100%;height: 35%;}
+.a1 a{background-color:white;color:black;}
+.a1 a:hover{background-color:#e03131;color:white;}
+
+
+.div22{background-color: blue;width: 100%;height: 65%;}
+
+
+
+.div221{background-color: red;width: 25%;height: 100%;float: left;}
+.div222{background-color: white;width: 25%;height: 100%;float: left;}
+.div223{background-color: red;width: 25%;height: 100%;float: left;}
+.div224{background-color: white;width: 25%;height: 100%;float: left;}
+
+
+.div3{width: 100%;height: 500px;}
+.div31{background-color: white;width: 100%;height: 55%;}
+.a2{color:black;background-color:white;}
+.a2:hover{color:white;background-color:#e03131;}
+
+
+.div32{width: 100%;height: 45%;}
+/*.div321{width:11%;height:75%;border-radius: 100%;background-color: gray;}*/
+.div321{display: block;float: left;margin-left: 160px;margin-right: 70px;}
+.div321  p{color: #2a2c2e;}
+.div321 p:hover{color: red;}
+.div321 img:hover +p{color: red;}
+
+.div322  p{color: #2a2c2e;}
+.div322 p:hover{color: red;}
+.div322 img:hover +p{color: red;}
+
+.div323  p{color: #2a2c2e;}
+.div323 p:hover{color: red;}
+.div323 img:hover +p{color: red;}
+
+.div324  p{color: #2a2c2e;}
+.div324 p:hover{color: red;}
+.div324 img:hover +p{color: red;}
+
+.div325  p{color: #2a2c2e;}
+.div325 p:hover{color: red;}
+.div325 img:hover +p{color: red;}
+
+.div326  p{color: #2a2c2e;}
+.div326 p:hover{color: red;}
+.div326 img:hover +p{color: red;}
+
+.div322{display: block;float: left;margin-right: 70px;}
+.div323{display: block;float: left;margin-right: 70px;}
+.div324{display: block;float: left;margin-right: 70px;}
+.div325{display: block;float: left;margin-right: 70px;}
+.div326{display: block;float: left;margin-right: 70px;}
+
+
+
+.div4{width: 100%;height: 950px;}
+.div41{background-color: white;width: 100%;height: 17%;}
+.div42{width: 100%;height: 83%;}
+.div421{width: 100%;height: 50%;}
+
+.div4211{background-color: #eeeeee;width: 24.5%;height: 100%;float: left;margin-right: 5px;margin-left: 12px;}
+/*.div4211 :hover +img{width: 50%}*/
+
+.div4212{background-color: yellow;width: 24.5%;height: 100%;float: left;margin-right: 5px;}
+.div4213{background-color: #eeeeee;width: 24.5%;height: 100%;float: left;margin-right: 5px;}
+.div4214{background-color: yellow;width: 24.5%;height: 100%;float: left;margin-right: 5px;}
+
+
+
+
+
+.div422{width: 100%;height: 50%;margin-top:5px;}
+.div4221{background-color: yellow;width: 24.5%;height: 100%;float: left;margin-right: 5px;margin-left: 12px;}
+.div4222{background-color: #eeeeee;width: 24.5%;height: 100%;float: left;margin-right: 5px;}
+.div4223{background-color: yellow;width: 24.5%;height: 100%;float: left;margin-right: 5px;}
+.div4224{background-color: red;width: 24.5%;height: 100%;float: left;margin-right: 5px;background-color:rgba(255,0,0,0.6);background: url(img/honey.png) 100% 100%;}
+
+
+
+
+
+
+.div5{width: 100%;height: 1000px;margin-top:5px;background: url(img/annie-spratt-137316.png) 50%;background-size:100% 100%;background-attachment: fixed;}
+.div51{background-color: white;width: 100%;height: 25%;}
+.div52{width: 100%;height: 60%;}
+.div521{width: 50%;height: 100%;float: left;background-color:rgba(104,104,104,0.6);}
+.div522{width: 50%;height: 100%;float: left;background-color:rgba(104,104,104,0.6);}
+.div53{width: 100%;height: 20%;background-color: white;}
+
+.footer{width: 100%;height: 380px;background:url(img/footer.jpg);}
+.div6{width: 100%;height: 300px;}
+.div61{width: 20%;height: 100%;float: left;}
+.div62{width: 20%;height: 100%;float: left;}
+.div63{width: 20%;height: 100%;float: left;}
+.div64{width: 20%;height: 100%;float: left;}
+.div65{width: 20%;height: 100%;float: left;}
+
+
+.div7{width: 100%;height: 80px;}
+
+
+
+
+/*鼠标*/
+.div11_left221 a:hover {color: red;}
+.div11_left222 a:hover {color: red;}
