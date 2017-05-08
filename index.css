@@ -149,3 +149,9 @@ header
 /*鼠标*/
 .div11_left221 a:hover {color: red;}
 .div11_left222 a:hover {color: red;}
+
+/*判断是否手机端*/
+@media screen and (max-width: 1680px) {  
+.div_one{display:none;}
+.div_two{display: none;}
+}
