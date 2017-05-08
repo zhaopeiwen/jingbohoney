@@ -5,9 +5,12 @@
 <link rel="shortcut icon" href="img/logo.ico" />
 <link rel="stylesheet" type="text/css" href="index.css">
     <title>黑龙江镜泊蜂业有限公司</title>
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
 </head>
 <body>
-    <div class="div_one">
+    <div class="div_one" >
         <div class="div_main">
             <div class="div1" id="div1" style="background: url(img/bg1.jpg);background-repeat:no-repeat ;background-size:100%;border-bottom: 10px solid;border-bottom-color: red;" >
                 <div class="div11">
@@ -218,8 +221,87 @@
             <div class="div8"></div>
         </div>
     </div>
-    <div class="div_two" style="display: none;">
-        
+    <div class="div_two">
+        <div data-role='page' id="homepage1">
+            <div data-role="header" data-tap-toggle="false" style="height: 8%;background-color: green;">
+                <h1 style="text-align: center;font-size: 21px;color: white;">黑龙江省镜泊蜂业有限公司</h1>
+                <a href="#defaultpanel" style="display: none;">更多</a>
+                <a href="#defaultpanel" style="background-color: green;color: white">更多</a>
+            </div>
+            <div data-role="panel" id="defaultpanel" data-theme="b" data-position="right"> 
+                    
+                <div class="panel-content"> 
+                    <h3>镜泊蜂业</h3> 
+                    <p> &nbsp;&nbsp;我司位于有“国家蜜库”美称的黑龙江，公司通过QS生产许可认证，一般纳税人资格认证。</p>&nbsp;&nbsp;在镜泊湖地区建有森林椴树蜜蜜源基地，每年采收优质椴树蜜1000吨。自有加工车间年可加工包装椴树蜜成品500吨。 镜泊蜂业专营黑龙江椴树蜜，结晶椴树蜜，白蜜。</p> &nbsp;&nbsp;镜泊蜂业精选黑龙江优质森林蜜源，严控产品质量安全，用心全产业链建设，确保每一瓶蜂蜜都是客户放心的选择，蜂蜜带给人类的健康，镜泊蜂业愿与大家一同分享！<p/>
+                    <a href="#demo-links" data-rel="close" data-role="button" data-theme="c" data-icon="delete" data-inline="true">关闭该侧栏</a>  
+                </div> <!-- /content wrapper for padding --> 
+                                
+            </div> <!-- /defaultpanel --> 
+            <div data-role="content">
+                <div class="wz_main"  style="text-align: center;width: 100%">
+                    <div data-role="navbar" style="background-color:red;border-bottom-style:solid; border-bottom-width:2px;border-bottom-color:lightyellow">
+                        <ul>
+                            <li><a class="a-header " href="#">首页</a></li>
+                            <li><a class="a-header" href="#">产品中心</a></li>
+                            <li><a class="a-header" href="#">产品优势</a></li>
+                            <li><a class="a-header" href="#">打假攻略</a></li>
+                            <li><a class="a-header" href="#">关于镜泊蜂业</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="width: 100%">
+                    <div  >
+                        <img src="img/bg1.jpg" width="100%" >
+                        <p/>
+                        <hr/>
+                        <p>产品中心</p>
+                        <hr/>
+                        <div style="width: 50%;float: left;text-align: center;">
+                            <img src="img/d09ee309e88d5da4a6613f05911c5d05.jpg" width="95%" height="400px;">
+                        </div>
+                        <div style="width: 50%;float: left;">
+                            <img src="img/608597fa7992642ad8213d545af067c5.jpg" width="95%" height="400px;">
+                            
+                        </div>
+                        <div style="width: 100%;height: 8%;">
+                            <div style="width: 50%;float: left;color: #b8b8b8">有机蜂蜜系列<br/>￥59.0</div>
+                            <div style="width: 50%;float: left;color: #b8b8b8">有机椴树蜜系列<br/>￥129.0</div>
+                        </div>
+                        <p/>
+
+                    </div>
+                </div>
+                <p/>
+
+
+<!--                 <div style="width: 100%">
+                    <hr/>
+                    <p  >产品优势</p>
+                    <hr/>
+                    <div style="width: 50%;float: left;text-align: center;">
+                        <img src="img/d09ee309e88d5da4a6613f05911c5d05.jpg" width="95%" height="400px;"> 
+                    </div>                           
+                </div>
+ -->
+
+            </div>
+
+
+
+
+
+
+            <div data-role="footer" data-theme-A  data-tap-toggle="false" style="background-color: #f6f6f6;">
+                <div data-role="navbar">
+                    <ul style="bottom: -1px;">
+                        <li><a href="index.html" class=" ui-icon-home ui-btn-icon-top " data-transition="none" style="display:block; border:none;border-top: 0;">首页</a></li>
+                        <li><a href="neixin-problem.html" class="ui-btn ui-icon-heart ui-btn-icon-top white" style="display:block; border-left: 0;border-top: 0;" data-transition="none">产品中心</a></li>
+                        <li><a href="zhiliao.html" data-transition="none" class="ui-btn ui-icon-grid ui-btn-icon-top white" style="border-left: 0;border-top: 0;">产品优势</a></li>
+                        <li><a href="zhaojun.html" data-transition="none" class=" ui-btn ui-icon-gear ui-btn-icon-top white" style="border-left: 0;border-top: 0;">关于镜泊蜂业</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script type="text/javascript">

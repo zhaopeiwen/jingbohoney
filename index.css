@@ -1,7 +1,7 @@
 /*.body{background:"img\annie-spratt-137316.png" background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;"}*/
 .div_main{width: 100%;height: 4170px;}
 
-.div1{background-color: red;width: 100%;height: 870px;margin-top: -10px;}
+.div1{width: 100%;height: 870px;margin-top: -10px;}
 /*
 header
 */
@@ -151,7 +151,9 @@ header
 .div11_left222 a:hover {color: red;}
 
 /*判断是否手机端*/
+@media screen and (min-width: 1681px) {  
+.div_two{display: none;}
+}
 @media screen and (max-width: 1680px) {  
 .div_one{display:none;}
-.div_two{display: none;}
 }
